@@ -17,9 +17,9 @@ print("Successfully connected")
 
 cursor = connection.cursor()
 
-storage_folder = 'C:\\Users\\Tintepoxi\\Desktop\\TESTESERVER'
+storage_folder = 'C:\\Registro_Organizador'
 
-table = 'Entradas_teste'
+table = 'Entradas'
 edit_image_path = ''
 
 class Query(BaseModel):
